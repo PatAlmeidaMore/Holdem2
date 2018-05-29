@@ -1,0 +1,9 @@
+ - Whenever chips are taken from a Player, check if the Player has enough
+ - Only do actions to a player if they are still in the game
+ - Pasted the Game steps to:
+    Game.java
+    Hand.java
+    BettingRound.java
+ - Could combine these lines when the pot is increased:
+    pot += game.chargeAntes();
+    game.updatePot(pot);
